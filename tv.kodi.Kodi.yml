@@ -46,31 +46,30 @@ cleanup:
   - /share/man
   - /var
 
-# TODO: Use flatpak extensions
 modules:
   - shared-modules/glu/glu-9.json
-  - modules/avahi/avahi.json # optional
+  - modules/avahi/avahi.json
   - modules/ffmpeg/ffmpeg.json
   - modules/flatbuffers/flatbuffers.json
   - modules/fmt/fmt.json
   - modules/fstrcmp/fstrcmp.json
-  - modules/glm/glm.json # optional
-  - modules/json/json.json # optional
-  - modules/jsoncpp/jsoncpp.json # optional
+  - modules/glm/glm.json
+  - modules/json/json.json
+  - modules/jsoncpp/jsoncpp.json
   - modules/libass/libass.json
   - modules/libbluray/libbluray.json
   - modules/libcdio/libcdio.json
   - modules/libinput/libinput.json
-  - modules/libmariadb/libmariadb.json
+  - modules/mariadb-connector/mariadb-connector.json
   - modules/libmicrohttpd/libmicrohttpd.json
   - modules/lzo/lzo.json
   - modules/p8-platform/p8-platform.json
   - modules/rapidjson/rapidjson.json
   - modules/spdlog/spdlog.json
-  - modules/swig/swig.json # optional
+  - modules/swig/swig.json
   - modules/taglib/taglib.json
   - modules/tinyxml/tinyxml.json
-  - modules/tinyxml2/tinyxml2.json # optional
+  - modules/tinyxml2/tinyxml2.json
   - modules/waylandpp/waylandpp.json
 
   - name: kodi
