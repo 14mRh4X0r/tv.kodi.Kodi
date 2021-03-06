@@ -14,6 +14,7 @@
         "--disable-core-docs",
         "--disable-manpages",
         "--disable-mono",
+        "--disable-libevent",
         "--disable-qt4",
         "--disable-qt5",
         "--disable-python",
