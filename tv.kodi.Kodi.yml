@@ -79,9 +79,6 @@ modules:
       - install -Dm644 tv.kodi.Kodi.metainfo.xml /app/share/metainfo/tv.kodi.Kodi.metainfo.xml
     config-opts:
       - -DVERBOSE=1
-      - -DUSE_LTO=${NUMCPU}
-      - -DCMAKE_BUILD_TYPE=RelWithDebInfo
-      - -DCMAKE_INSTALL_PREFIX=/usr
       - -DENABLE_TESTING=OFF
       - -DENABLE_AIRTUNES=ON
       - -DENABLE_ALSA=ON
@@ -92,9 +89,6 @@ modules:
       - -DENABLE_DVDCSS=ON
       - -DENABLE_EGL=ON
       - -DENABLE_EVENTCLIENTS=ON
-      - -DENABLE_INTERNAL_DAV1D=ON
-      - -DENABLE_INTERNAL_FFMPEG=ON
-      - -DENABLE_INTERNAL_CROSSGUID=OFF
       - -DENABLE_MICROHTTPD=ON
       - -DENABLE_MYSQLCLIENT=ON
       - -DENABLE_NFS=ON
