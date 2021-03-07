@@ -2,7 +2,7 @@
     "name": "mariadb-connector",
     "buildsystem": "cmake-ninja",
     "config-opts": [
-        "-DWITH_UNIT_TESTS=off"
+        "-DWITH_UNIT_TESTS=OFF"
     ],
     "cleanup": [
         "/include",
@@ -11,8 +11,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://downloads.mariadb.org/interstitial/connector-c-3.1.12/mariadb-connector-c-3.1.12-src.tar.gz",
-            "sha256": "c64438e53ea5d058332f455a368bf2de0d7be9111dba19f3a90a5ad57f1dd2b4"
+            "url": "https://github.com/mariadb-corporation/mariadb-connector-c/archive/v3.1.12.tar.gz",
+            "sha256": "26199dd2275a6ac7dcdb159f3d5796f4a362093a1133b0541bd6e0b328727ef5"
         }
     ]
 }
