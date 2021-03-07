@@ -18,7 +18,7 @@
         {
             "type": "archive",
             "url": "https://download.samba.org/pub/samba/stable/samba-4.13.4.tar.gz",
-            "sha256": "0e9c386bc32983452c5dcafdee561f37e43a411ac1919c864404e6177b1aaf4a"
+            "sha256": "a1b34c63f7100cc8626902d80f335c7cb0b45d4707dd3c4b010f7a28ed615c78"
         }
     ]
 }
