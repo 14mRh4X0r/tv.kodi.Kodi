@@ -1,5 +1,8 @@
 {
     "name": "lirc",
+    "config-opts": [
+        "--with-systemdsystemunitdir=/usr/lib/systemd/system/"
+    ],
     "sources": [
         {
             "type": "archive",
