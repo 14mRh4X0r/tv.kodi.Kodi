@@ -22,6 +22,22 @@
     ],
     "modules": [
         {
+            "name": "perl",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./Configure -de -Dprefix=/app/perl",
+                "make",
+                "make install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.cpan.org/src/5.0/perl-5.32.1.tar.gz",
+                    "sha256": "03b693901cd8ae807231b1787798cf1f2e0b8a56218d07b7da44f784a7caeb2c"
+                }
+            ]
+        },
+        {
             "name": "parse-yapp",
             "buildsystem": "simple",
             "build-commands": [
